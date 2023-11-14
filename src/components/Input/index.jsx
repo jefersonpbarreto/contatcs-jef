@@ -4,7 +4,7 @@ export default function Input({ placeholder, icon, ...props }) {
 
     return (
         <div className={styles.container}>
-            <input {...props} className={styles.input} placeholder={placeholder} />
+            {icon}<input {...props} className={styles.input} placeholder={placeholder} />
         </div>
     )
 
